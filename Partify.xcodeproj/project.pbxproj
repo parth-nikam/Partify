@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2BB490294B77B8000D126E /* Bekhayali.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2BB48F294B77B8000D126E /* Bekhayali.mp3 */; };
 		7B7B363A294B33770086C87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B3639294B33770086C87F /* AppDelegate.swift */; };
 		7B7B363C294B33770086C87F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B363B294B33770086C87F /* SceneDelegate.swift */; };
 		7B7B363E294B33770086C87F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B363D294B33770086C87F /* ViewController.swift */; };
@@ -16,7 +17,7 @@
 		7B7B3651294B33780086C87F /* PartifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B3650294B33780086C87F /* PartifyTests.swift */; };
 		7B7B365B294B33780086C87F /* PartifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B365A294B33780086C87F /* PartifyUITests.swift */; };
 		7B7B365D294B33780086C87F /* PartifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B365C294B33780086C87F /* PartifyUITestsLaunchTests.swift */; };
-		7B7B367D294B43630086C87F /* One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B367C294B43630086C87F /* One.mp3 */; };
+		7B7B367D294B43630086C87F /* Aankhon Mai Teri.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B367C294B43630086C87F /* Aankhon Mai Teri.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B2BB48F294B77B8000D126E /* Bekhayali.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bekhayali.mp3; path = "../../../../../../Desktop/PNQ - UDR/Sounds/Bekhayali.mp3"; sourceTree = "<group>"; };
 		7B7B3636294B33770086C87F /* Partify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Partify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7B3639294B33770086C87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B7B363B294B33770086C87F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		7B7B3656294B33780086C87F /* PartifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7B365A294B33780086C87F /* PartifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartifyUITests.swift; sourceTree = "<group>"; };
 		7B7B365C294B33780086C87F /* PartifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7B7B367C294B43630086C87F /* One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = One.mp3; sourceTree = "<group>"; };
+		7B7B367C294B43630086C87F /* Aankhon Mai Teri.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aankhon Mai Teri.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,6 @@
 				7B7B363F294B33770086C87F /* Main.storyboard */,
 				7B7B3642294B33780086C87F /* Assets.xcassets */,
 				7B7B3644294B33780086C87F /* LaunchScreen.storyboard */,
-				7B7B367C294B43630086C87F /* One.mp3 */,
 				7B7B366B294B34000086C87F /* Sounds */,
 				7B7B3647294B33780086C87F /* Info.plist */,
 			);
@@ -134,6 +135,8 @@
 		7B7B366B294B34000086C87F /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				7B2BB48F294B77B8000D126E /* Bekhayali.mp3 */,
+				7B7B367C294B43630086C87F /* Aankhon Mai Teri.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -244,8 +247,9 @@
 			files = (
 				7B7B3646294B33780086C87F /* LaunchScreen.storyboard in Resources */,
 				7B7B3643294B33780086C87F /* Assets.xcassets in Resources */,
+				7B2BB490294B77B8000D126E /* Bekhayali.mp3 in Resources */,
 				7B7B3641294B33770086C87F /* Main.storyboard in Resources */,
-				7B7B367D294B43630086C87F /* One.mp3 in Resources */,
+				7B7B367D294B43630086C87F /* Aankhon Mai Teri.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
