@@ -38,7 +38,7 @@ class ViewController: UIViewController {
                     return
                 }
                 player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
-                guard let player = player else{
+            guard let player = player else{
                     return
                 }
                 
